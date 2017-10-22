@@ -24,12 +24,12 @@ The last column reports the actual 48-bit memory address that has been accessed 
 
 # Running the simulator
 * The program take the following parameters:  
-&nbsp;&nbsp;&nbsp;`./cacheSimulator <cache size> <associativity> <block size> <trace file>`
-* < cachesize > is the total size of the cache in bytes. This number will be a power of 2.
-* < associativity > is one of: 
-&nbsp;&nbsp;&nbsp;– direct - simulate a direct mapped cache. 
-&nbsp;&nbsp;&nbsp;– assoc - simulate a fully associative cache. 
-&nbsp;&nbsp;&nbsp;– assoc:n - simulate an n − way associative cache. n will be a power of 2.
+&nbsp;&nbsp;&nbsp;`./cacheSimulator <cache size> <associativity> <block size> <trace file>`  
+* < cachesize > is the total size of the cache in bytes. This number will be a power of 2.  
+* < associativity > is one of:  
+&nbsp;&nbsp;&nbsp;– direct - simulate a direct mapped cache.  
+&nbsp;&nbsp;&nbsp;– assoc - simulate a fully associative cache.  
+&nbsp;&nbsp;&nbsp;– assoc:n - simulate an n − way associative cache. n will be a power of 2.  
 * < blocksize > is a power of 2 integer that specifies the size of the cache block in bytes.
 * < tracefile > is the name of the trace file.
 
