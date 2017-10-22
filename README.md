@@ -7,7 +7,7 @@ It should be able to determie if the input trace is a hit or miss, and take corr
 * The program only simulates only one level cache. (L1)
 * Replacement Algorithm: First In First Out (FIFO).
 * Memory address are 48-bit
-* Type of cache
+* Type of cache  
 &nbsp;&nbsp;&nbsp;First Type:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tag - index - block  
 &nbsp;&nbsp;&nbsp;Second Type:  
