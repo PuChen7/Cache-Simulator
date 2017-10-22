@@ -23,12 +23,7 @@ Second column lists whether the memory access is a read (R) or a write (W) opera
 The last column reports the actual 48-bit memory address that has been accessed by the program.
 
 * Sample trace file:
-
-0x804ae19: W 0x9cb32e0
-0x804ae1c: R 0x9cb32e4
-0x804ae1c: W 0x9cb32e4
-0x804ae10: R 0xbf8ef498
-0x804ae16: R 0xbf8ef49c
+<img src = "" width="30%" height="30%">
 
 # Running the simulator
 * The program take the following parameters:
@@ -43,24 +38,6 @@ The last column reports the actual 48-bit memory address that has been accessed 
 
 # Output Sample
 
-$./tracefile 32 assoc:2 4 trace1.txt
 
-cache A
 
-Memory reads: 173
 
-Memory writes: 334
-
-Cache hits: 827 
-
-Cache misses: 173 
-
-cache B
-
-Memory reads: 667 
-
-Memory writes: 334 
-
-Cache hits: 333 
-
-Cache misses: 667
