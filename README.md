@@ -8,10 +8,10 @@ It should be able to determie if the input trace is a hit or miss, and take corr
 * Replacement Algorithm: First In First Out (FIFO).
 * Memory address are 48-bit
 * Type of cache
-&nbsp;&nbsp;&nbsp;First Type:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tag - index - block
-&nbsp;&nbsp;&nbsp;Second Type:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index - tag - block
+&nbsp;&nbsp;&nbsp;First Type:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tag - index - block  
+&nbsp;&nbsp;&nbsp;Second Type:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index - tag - block  
 
 # Input Trace File Specification
 The trace file is a .txt file which contains multiples of lines. Each line corresponds to a memory address.  
