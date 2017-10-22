@@ -23,7 +23,7 @@ The last column reports the actual 48-bit memory address that has been accessed 
 <img src = "https://github.com/PuChen7/Cache-Simulator/blob/master/images/tracefile.jpeg" width="30%" height="30%">
 
 # Running the simulator
-* The program take the following parameters:
+* The program take the following parameters:  
 &nbsp;&nbsp;&nbsp;`./cacheSimulator <cache size> <associativity> <block size> <trace file>`
 * < cachesize > is the total size of the cache in bytes. This number will be a power of 2.
 * < associativity > is one of: 
