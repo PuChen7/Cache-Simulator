@@ -8,10 +8,10 @@ It should be able to determie if the input trace is a hit or miss, and take corr
 * Replacement Algorithm: First In First Out (FIFO).
 * Memory address are 48-bit
 * Type of cache
-...First Type:
-......tag - index - block
-...Second Type:
-......index - tag - block
+    First Type:
+        tag - index - block
+    Second Type:
+        index - tag - block
 
 # Input Trace File Specification
 The trace file is a .txt file which contains multiples of lines. Each line corresponds to a memory address.
@@ -25,13 +25,9 @@ The last column reports the actual 48-bit memory address that has been accessed 
 * Sample trace file:
 
 0x804ae19: W 0x9cb32e0
-
 0x804ae1c: R 0x9cb32e4
-
 0x804ae1c: W 0x9cb32e4
-
 0x804ae10: R 0xbf8ef498
-
 0x804ae16: R 0xbf8ef49c
 
 # Running the simulator
