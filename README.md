@@ -14,8 +14,7 @@ It should be able to determie if the input trace is a hit or miss, and take corr
 ⋅⋅⋅⋅⋅⋅index - tag - block
 
 # Input Trace File Specification
-The trace file is a .txt file which contains multiples of lines. Each line corresponds to a memory address.
-
+The trace file is a .txt file which contains multiples of lines. Each line corresponds to a memory address.  
 The first column reports program counter when this particular memory access occurred. 
 
 Second column lists whether the memory access is a read (R) or a write (W) operation. 
